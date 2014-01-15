@@ -12,7 +12,8 @@
 #ifndef PROSILICA_H
 #define PROSILICA_H
 
-#include <string>
+#include <stdio.h>
+#include <string.h>
 #include <iostream>
 #include <sstream>
 #include <vector>

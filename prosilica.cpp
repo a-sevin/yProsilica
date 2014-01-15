@@ -104,7 +104,8 @@ void cameraGetPixelFormat(tCamera* camera, char *format, const int formatSize) {
 void cameraStart(tCamera* camera, tPvUint32 packetSize) {
   cameraSetPixelFormat(camera, "Mono16");
   cameraSetExpo(camera, 1000);
-  tPvUint32 ROI[4]={0,0,493,659};
+
+  //tPvUint32 ROI[4]={0,0,493,659};
   //cameraSetROI(camera,ROI);
 
   // Auto adjust the packet size to max supported by the network, up to a max of 8228.
